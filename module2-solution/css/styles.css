@@ -1,10 +1,14 @@
+/********** Base styles **********/
 * {
   	box-sizing: border-box;
   	font-family: Helvetica;
-  	background-color: #ffd1dc;
 }
 
-.content{
+body {
+	background-image: url("background_pic.jpg");
+}
+
+.content {
   	width: 100%;
   	font-family: Helvetica;
   	color: black;
@@ -19,7 +23,7 @@ section {
 	overflow: auto;
 }
 
-.info{
+.info {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -29,8 +33,7 @@ section {
   	padding: 10px;
 }
 
-.chicken
-{
+#chicken {
 	border: 2px solid black;
 	background-color: #ffdfba;
 	height: 23px;
@@ -38,8 +41,7 @@ section {
 	margin-left: 80%;
 }
 
-.beef
-{
+#beef {
 	border: 2px solid black;
 	background-color: #fdfd96;
 	height: 23px;
@@ -47,8 +49,7 @@ section {
 	margin-left: 80%;
 }
 
-.sushi
-{
+#sushi {
 	border: 2px solid black;
 	background-color: #cbe2a4;
 	height: 23px;
@@ -117,7 +118,6 @@ h1 {
   .col-lg-12 {
     width: 100%;
   }
-}
 
 /********** tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
