@@ -1,5 +1,11 @@
-<style>
 /********** Base styles **********/
+#content {
+  background-color: #90EE90; /* green */
+}
+
+<style>
+
+
 * {
   box-sizing: border-box;
 }
