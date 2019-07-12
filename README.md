@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## HTML, CSS, and Javascript for Web Developers
+by Johns Hopkins University
+
+
 
 You can use the [editor on GitHub](https://github.com/msuphap/coursera_web_developer_material/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
