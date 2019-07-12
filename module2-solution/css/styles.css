@@ -1,54 +1,70 @@
-/********** Base styles **********/
 * {
-  box-sizing: border-box;
-  font-family: Helvetica;
-  background-color: #eb98d6;
+  	box-sizing: border-box;
+  	font-family: Helvetica;
+  	background-color: #ffd1dc;
 }
 
 .content{
-  width: 100%;
-  font-family: Helvetica;
-  color: black;
-  padding: 5px;
+  	width: 100%;
+  	font-family: Helvetica;
+  	color: black;
+	padding: 5px;
 }
 
 section {
 	border:	1px solid black;
-    background-color: #78eaf0;
+    background-color: #c2e3f2;
 	width: 100%;
 	height: 150px;
 	overflow: auto;
 }
 
 .info{
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  background-color: #78eaf0;
-  color: black;
-  padding: 10px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	background-color: #c2e3f2;
+  	color: black;
+  	padding: 10px;
 }
 
-.section_cat
+.chicken
 {
-	border: 3px solid black;
-	background-color: #f3f57a;
-	height: 25px;
+	border: 2px solid black;
+	background-color: #ffdfba;
+	height: 23px;
+	text-align: center;
+	margin-left: 80%;
+}
+
+.beef
+{
+	border: 2px solid black;
+	background-color: #fdfd96;
+	height: 23px;
+	text-align: center;
+	margin-left: 80%;
+}
+
+.sushi
+{
+	border: 2px solid black;
+	background-color: #cbe2a4;
+	height: 23px;
 	text-align: center;
 	margin-left: 80%;
 }
 
 p {
-  border: 3px solid black;
-  background-color: #A52A2A;
-  width: 95%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0px;
-  font-family: Helvetica;
-  color: white;
+	border: 3px solid black;
+	width: 95%;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+  	padding: 0px;
+  	font-family: Helvetica;
+  	color: white;
 }
 
 h1 {
@@ -57,7 +73,7 @@ h1 {
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
+  	width: 100%;
 }
 
 /********** desktop **********/
