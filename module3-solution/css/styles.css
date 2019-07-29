@@ -1,0 +1,143 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+  background-image: url("food7.jpg");
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffc0cb;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #ff6961;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+/*.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}*/
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ff6961;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ff6961;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -43px;
+}
+/* END HEADER */
+
+
+.content {
+    width: 100%;
+    font-family: Helvetica;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0;
+  /*padding: 5px;*/
+}
+
+section {
+  border: 1px solid black;
+  /*background-color: #c2e3f2;*/
+  background-color: #e6f7ff;
+  width: 100%;
+  height: auto;
+  /*overflow: auto;*/
+}
+
+.info {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    background-color: #e6f7ff;
+    color: black;
+    padding: 10px;
+}
+
+#chicken {
+    border: 2px solid black;
+    background-color: #ffb347;
+    height: 23px;
+    text-align: center;
+    margin-left: 80%;
+}
+
+#beef {
+    border: 2px solid black;
+    background-color: #fdfd96;
+    height: 23px;
+    text-align: center;
+    margin-left: 80%;
+}
+
+#sushi {
+    border: 2px solid black;
+    background-color: #77dd77;
+    height: 23px;
+    text-align: center;
+    margin-left: 80%;
+}
+
+p {
+  border: 3px solid black;
+  width: 95%;
+  height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    font-family: Helvetica;
+    color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+#item {
+  border-color: white;
+}
+
+/* HOME PAGE */
+.container .jumbotron {
+  padding: 0;
+  background-image: url("food7.jpg");
+  /*border: 2px solid #3F0C1F;*/
+}
